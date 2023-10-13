@@ -1,4 +1,4 @@
-def fact_rect(n):
+cdef fact_rect(n):
   if n==0 or n==1:
     return 1
   else:
